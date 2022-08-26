@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Cal.css';
 
 
-function Calculater() {
+function Calculator() {
     const [result, setValue] = useState("")
 
     const Answer = (event) => {
@@ -28,7 +28,7 @@ function Calculater() {
         <div>
         <div className='Cal'>
             <style>{"body {background-image: url( )}{backgroundRepeat: 'no-repeat}"}</style>
-            <h4 className='heading'>Calculater</h4>
+            <h4 className='heading'>Calculator</h4>
             <input type="text" value={result} id="answer" />
             <div>
 
@@ -71,4 +71,4 @@ function Calculater() {
     )
 }
 
-export default Calculater;
+export default Calculator;

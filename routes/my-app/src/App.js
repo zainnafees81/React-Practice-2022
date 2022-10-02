@@ -21,8 +21,6 @@ function App() {
 
       <Routes >
         <Route path="/home" element={<TodoItems Post={Post} input={input} setInput={setInput} />} />
-
-
         <Route path="List" element={<ListItems img={img} />} />
         <Route path="/" element={<SignIn />} />
         <Route path="SignUp" element={ <SignUp />} />
